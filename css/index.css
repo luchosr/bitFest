@@ -1,0 +1,33 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 62.5%;
+  background: url("../img/fondo2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  /* 1 em ---> 10px */
+}
+
+.main {
+  background: url("../img/fondo2.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main__logo {
+  width: 38em;
+  margin-top: 17em;
+  margin-left: 42em;
+}
