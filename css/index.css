@@ -9,13 +9,8 @@ html {
 
 body {
   font-size: 62.5%;
-
   width: 100vw;
 
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* background-attachment: fixed; */
-  /* background-size: cover; */
   /* 1 em ---> 10px */
 }
 @font-face {
@@ -27,13 +22,9 @@ body {
   src: url("../font/AVENIR/AvenirNextCyrRegular.otf") format("opentype");
 }
 .main {
-  background: url("../img/fondo2.png") no-repeat center center scroll;
-  height: 100em;
-  background: url("../img/fondo2.png");
-  /* height: 100vh; */
+  height: 180em;
+  background: url("../img/fondo.png");
   background-repeat: no-repeat;
-  /* background-position: center center; */
-  /* background-attachment: fixed; */
   background-size: cover;
 }
 
@@ -60,4 +51,8 @@ body {
   margin: 1em 0 1em 10em;
   width: 45em;
   text-align: center;
+  line-height: 2em;
+}
+.bold {
+  font-weight: bolder;
 }
