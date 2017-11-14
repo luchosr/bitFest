@@ -9,20 +9,31 @@ html {
 
 body {
   font-size: 62.5%;
-  background: url("../img/fondo2.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+
+  width: 100vw;
+
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background-size: cover; */
   /* 1 em ---> 10px */
 }
-
+@font-face {
+  font-family: DecimaMono;
+  src: url("../font/DECIMA_MONO/DecimaMono.otf") format("opentype");
+}
+@font-face {
+  font-family: Avenir;
+  src: url("../font/AVENIR/AvenirNextCyrRegular.otf") format("opentype");
+}
 .main {
+  background: url("../img/fondo2.png") no-repeat center center scroll;
+  height: 100em;
   background: url("../img/fondo2.png");
-  height: 100vh;
+  /* height: 100vh; */
   background-repeat: no-repeat;
   /* background-position: center center; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
 }
 
@@ -30,4 +41,23 @@ body {
   width: 38em;
   margin-top: 17em;
   margin-left: 42em;
+}
+.main__direction {
+  margin: 10em 0 10em 25em;
+}
+.main__direction h1 {
+  font-family: DecimaMono, Helvetica, sans-serif;
+  word-spacing: 0.7em;
+  border-top: 2px solid #50eb74;
+  border-bottom: 2px solid #50eb74;
+  padding: 0.7em 0 0.7em 1.5em;
+  width: 36em;
+}
+
+.main__text {
+  font-size: 2em;
+  font-family: Avenir, Helvetica, sans-serif;
+  margin: 1em 0 1em 10em;
+  width: 45em;
+  text-align: center;
 }
